@@ -60,13 +60,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier.padding(15.dp)) {
         Text(
             text = "Settings",
             fontSize = 36.sp,
-            modifier = modifier
+            modifier = Modifier.padding(22.dp)
         )
 Row (
     modifier = Modifier.fillMaxWidth().background(backgroundColor).padding(top = 15.dp, bottom = 15.dp),
     verticalAlignment = Alignment.CenterVertically,
 )
 {
+
     Image(painter = painterResource(id = R.drawable.phonelink_setup),
         contentDescription = "Phone",
         modifier= Modifier
@@ -86,7 +87,7 @@ Row (
     }
 }
         Row (
-            modifier = Modifier.fillMaxWidth().padding(top = 43.dp),
+            modifier = Modifier.fillMaxWidth().padding(top = 80.dp),
             verticalAlignment = Alignment.CenterVertically,
         )
         {
@@ -98,7 +99,7 @@ Row (
             Column (modifier= Modifier.padding(start = 10.dp)){
                 Text(
                     text = "Network & Internet",
-                    fontSize = 21.sp,
+                    fontSize = 20.sp,
                     modifier = Modifier
                 )
                 Text(
@@ -121,7 +122,7 @@ Row (
             Column (modifier= Modifier.padding(start = 10.dp)){
                 Text(
                     text = "Connected devices",
-                    fontSize = 21.sp,
+                    fontSize = 20.sp,
                     modifier = Modifier
                 )
                 Text(
@@ -144,7 +145,7 @@ Row (
             Column (modifier= Modifier.padding(start = 10.dp)){
                 Text(
                     text = "App",
-                    fontSize = 21.sp,
+                    fontSize = 20.sp,
                     modifier = Modifier
                 )
                 Text(
@@ -167,7 +168,7 @@ Row (
             Column (modifier= Modifier.padding(start = 10.dp)){
                 Text(
                     text = "Notifications",
-                    fontSize = 21.sp,
+                    fontSize = 20.sp,
                     modifier = Modifier
                 )
                 Text(
@@ -190,7 +191,7 @@ Row (
             Column (modifier= Modifier.padding(start = 10.dp)){
                 Text(
                     text = "Digital wellbeing",
-                    fontSize = 21.sp,
+                    fontSize = 20.sp,
                     modifier = Modifier
                 )
                 Text(
